@@ -1,10 +1,10 @@
 <?php
 	function conexion(){
-	$host = "host=containers-us-west-15.railway.app";
-	$port = "port=5551";
+	$host = "host=containers-us-west-141.railway.app";
+	$port = "port=5508";
 	$dbname = "dbname=railway";
 	$user = "user=postgres";
-	$password = "password=Ks6UacnaxJUO2P67KwOb";
+	$password = "password=04ZMZMurwTfxsYFDM5QF";
 	$db = pg_connect("$host $port $dbname $user $password");
     return $db;
 }
